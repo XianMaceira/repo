@@ -39,7 +39,7 @@ git config --global color.ui auto
 git config --list
 
 # Creacion
-##git init --> Iniciar repo
+## git init --> Iniciar repo
 ls -la / ls -h
 git status
 git add
