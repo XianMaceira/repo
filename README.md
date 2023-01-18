@@ -34,9 +34,13 @@ Volver a mostrar los últimos cambios del repositorio.
 # Configuracion
 
 git config --global user.name "Your-Full-Name"
+
 git config --global user.email "your-email-address"
+
 git config --global color.ui auto
+
 git config --list
+
 
 # Creacion
 git init --> Iniciar repo
