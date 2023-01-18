@@ -39,12 +39,21 @@ git config --global color.ui auto
 git config --list
 
 # Creacion
-## git init --> Iniciar repo
+git init --> Iniciar repo
+
 ls -la / ls -h
+
 git status
+
 git add
+
 git commit -m "Texto ejemplo"
+
 git commit --amend -m "Texto ejemplo" --> Modifica el commit
+
 git log 
+
 git show --> Muestra la diferencia de contenido entre los commit
+
 git diff --> Muestra las diferencias
+
