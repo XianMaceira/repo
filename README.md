@@ -51,9 +51,6 @@ git init
 ```
 --> Iniciar repo
 ```bash
-ls -la / ls -h
-```
-```bash
 git add .
 ```
 --> Añadir todos los cambios
