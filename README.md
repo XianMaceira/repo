@@ -128,23 +128,7 @@ git diff HEAD~2..HEAD
 git annotate indice.txt
 ```
 ---> Una especie de historial, nos dice cuando quien y que cambios han sido realizados.
-```bash
 
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-v
 
 
 
