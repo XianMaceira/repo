@@ -129,6 +129,78 @@ git annotate indice.txt
 ```
 ---> Una especie de historial, nos dice cuando quien y que cambios han sido realizados.
 
+# Practica Git 3. Deshacer cambios.
+
+# Ejercicio 1
+
+Eliminar la última línea del fichero indice.txt y guardarlo.
+Comprobar el estado del repositorio.
+Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero.
+Volver a comprobar el estado del repositorio.
+
+# Ejercicio 2
+
+Eliminar la última línea del fichero indice.txt y guardarlo.
+Añadir los cambios a la zona de intercambio temporal.
+Comprobar de nuevo el estado del repositorio.
+Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo.
+Comprobar de nuevo el estado del repositorio.
+Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero.
+Volver a comprobar el estado del repositorio.
+
+# Ejercicio 3
+
+Eliminar la última línea del fichero indice.txt y guardarlo.
+Eliminar el fichero capitulos/capitulo3.txt.
+Añadir un fichero nuevo captitulos/capitulo4.txt vacío.
+Añadir los cambios a la zona de intercambio temporal.
+Comprobar de nuevo el estado del repositorio.
+Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo.
+Comprobar de nuevo el estado del repositorio.
+Deshacer los cambios realizados para volver a la versión del repositorio.
+Volver a comprobar el estado del repositorio.
+
+# Ejercicio 4
+
+Eliminar la última línea del fichero indice.txt y guardarlo.
+Eliminar el fichero capitulos/capitulo3.txt.
+Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Borrado accidental.”
+Comprobar el historial del repositorio.
+Deshacer el último commit pero mantener los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.
+Comprobar el historial y el estado del repositorio.
+Volver a hacer el commit con el mismo mensaje de antes.
+Deshacer el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio.
+Comprobar de nuevo el historial y el estado del repositorio.
+
+# COMANDOS
+
+```bash
+git checkout -- indice.txt
+```
+---> devuelve el fichero a su versión anterior.
+
+```bash
+git clean
+```
+---> elimina los archivos sin seguimiento en un directorio de trabajo del repositorio
+
+```bash
+git reset --soft
+```
+---> deshace el anterior "git commit"
+
+```bash
+git reset(mixed)
+```
+---> deshace el anterior "git commit" y todo lo realizado anteriormente a ese commit
+
+```bash
+git reset --hard
+```
+---> eshacer los cambios locales en el estado de un repositorio de Git(comando peligroso).
+
+
+
 
 
 
