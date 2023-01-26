@@ -199,8 +199,77 @@ git reset --hard
 ```
 ---> eshacer los cambios locales en el estado de un repositorio de Git(comando peligroso).
 
+# Practica git 4. Ramas
+
+# Ejercicio 1
+
+Crear una nueva rama bibliografia y mostrar las ramas del repositorio.
+
+# Ejercicio 2
+
+Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente
+
+Añadir los cambios a la zona de intercambio temporal.
+Hacer un commit con el mensaje “Añadido capítulo 4.”
+Mostrar la historia del repositorio incluyendo todas las ramas.
+
+# Ejercicio 3
+
+Cambiar a la rama bibliografia.
+
+Añadir los cambios a la zona de intercambio temporal.
+Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.”
+Mostrar la historia del repositorio incluyendo todas las ramas.
+
+# Ejercicio 4
+
+Fusionar la rama bibliografia con la rama master.
+Mostrar la historia del repositorio incluyendo todas las ramas.
+Eliminar la rama bibliografia.
+Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
 
 
+# Ejercicio 5
 
+Crear la rama bibliografia.
+Cambiar a la rama bibliografia.
+Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
 
+Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.”
+Cambiar a la rama master.
+Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
+
+Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.”
+Fusionar la rama bibliografia con la rama master.
+Resolver el conflicto dejando el fichero bibliografia.txt con las referencias:
+
+Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.”
+Mostrar la historia del repositorio incluyendo todas las ramas.
+
+# COMANDOS
+
+```bash
+git branch 
+```
+---> Crear ramas.
+
+```bash
+git branch -av
+```
+ ---> Ver ramas.
+
+```bash
+git checkout "Nombre rama" 
+```
+---> Situarnos en la rama solicitada.
+
+```bash
+git merge "rama"
+```
+---> Fusionamos las otras ramas a la rama actual (normalmente la principal).
+
+```bash
+git branch -d "rama"
+```
+ ---> Eliminar la rama
 
